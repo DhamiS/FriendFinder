@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FriendFinder</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style>
+      .img-style {
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="sur">Survey Questions</h1>
+        </div>
+      </div>
+      <form>
+        <div class="row">
+          <div class="col-12">
+            <h3>About You</h3>
+            <div class="row">
+              <div class="col-12 form-group">
+                <label for="name">Name(Required)</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 form-group">
+                <label for="link">Link to photo or image(Required)</label>
+                <input type="text" class="form-control" id="photo" required />
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="row mt-2">
+          <div class="col-12">
+            <h4>Qustion1</h4>
+            <label for="que1">
+              You rather play a sport than watch a sport.
+            </label>
+            <select class="form-control w-25" id="que1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12">
+            <h4>Qustion2</h4>
+            <label for="que2">
+              Generally speaking, you rather do a hands-on experience than experience that toggles your mind.
+              .
+            </label>
+            <select class="form-control w-25" id="que2">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12">
+            <h4>Qustion1</h4>
+            <label for="que3">
+              Your either organized and finish things on time, or your porcrastinate and are un-organized.
+            </label>
+            <select class="form-control w-25" id="que3">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12">
+            <h4>Qustion4</h4>
+            <label for="que4">
+              You rarely take on new experiences.
+            </label>
+            <select class="form-control w-25" id="que4">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12">
+            <h4>Qustion5</h4>
+            <label for="que5">
+              Your easily infulenced.
+            </label>
+            <select class="form-control w-25" id="que5">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12">
+            <h4>Qustion6</h4>
+            <label for="que6">
+              You find it hard to trust others .
+            </label>
+            <select class="form-control w-25" id="que6">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12">
+            <h4>Qustion7</h4>
+            <label for="que7">
+              You'd rather tell the truth even if will ruin a relationship.
+            </label>
+            <select class="form-control w-25" id="que7">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12">
+            <h4>Qustion8</h4>
+            <label for="que8">
+              Your great at multi-tasking.
+            </label>
+            <select class="form-control w-25" id="que8">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12">
+            <h4>Qustion9</h4>
+            <label for="que9">
+              You think that everyone’s views should be respected regardless of
+              whether they are supported by facts or not.
+            </label>
+            <select class="form-control w-25" id="que9">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12">
+            <h4>Qustion10</h4>
+            <label for="que10">
+              You thrive in group settings.
+            </label>
+            <select class="form-control w-25" id="que10">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mt-4 mb-5">
+          <div class="col-12">
+            <button
+              class="btn btn-lg btn-info submit"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <!-- modal -->
+      <div
+        class="modal fade"
+        id="exampleModalCenter"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                Your Match
+              </h5>
+            </div>
+            <div id="data" class="modal-body text-center"></div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                id="close"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- script -->
+<script type="text/javascript">
+  $(".submit").on("click", function(event) {
+    event.preventDefault();
+    var newFriend = {
+      name: $("#name")
+        .val()
+        .trim(),
+      photo: $("#photo")
+        .val()
+        .trim(),
+      scores: [
+        parseInt(
+          $("#que1")
+            .val()
+            .trim()
+        ),
+        parseInt(
+          $("#que2")
+            .val()
+            .trim()
+        ),
+        parseInt(
+          $("#que3")
+            .val()
+            .trim()
+        ),
+        parseInt(
+          $("#que4")
+            .val()
+            .trim()
+        ),
+        parseInt(
+          $("#que5")
+            .val()
+            .trim()
+        ),
+        parseInt(
+          $("#que6")
+            .val()
+            .trim()
+        ),
+        parseInt(
+          $("#que7")
+            .val()
+            .trim()
+        ),
+        parseInt(
+          $("#que8")
+            .val()
+            .trim()
+        ),
+        parseInt(
+          $("#que9")
+            .val()
+            .trim()
+        ),
+        parseInt(
+          $("#que10")
+            .val()
+            .trim()
+        )
+      ]
+    };
+
+    $.post("/api/friends", newFriend, function(data) {
+      console.log(data);
+
+      var name = $("<h4>");
+      name.text(data.name);
+
+      var image = $(
+        `<img class="img-style" alt='${data.name}' src='${data.photo}' />`
+      );
+
+      $("#data").append(image, name);
+    });
+  });
+
+  $("#close").on("click", function(event) {
+    event.preventDefault();
+    $("#data").empty();
+  });
+</script>
